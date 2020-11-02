@@ -5,17 +5,6 @@ ionic info
 
 npm install -g ionic@latest
 npm i -g npm-check-updates
-npm-check-updates -u
-
-npm i --save-dev typescript@3.4.5
-npm install @angular/platform-browser --save
-rm -rf node_modules
-npm cache clear
-npm i ionic-angular
-npm update --all --force --save
-ng update @angular/core --save
-npm install ngx-lightbox@2.0.0 --save
-npm i native-run --save
 
 npm i @angular/cli@8.1.1 --save
 npm install @swimlane/ngx-datatable@latest --save
