@@ -9,7 +9,7 @@ var employeeSchema = new Schema
  post: {    type: String, required: 'Kindly enter the position of the employee'},
  salary: {  type: Number , required:'Kindly enter the salary of the new employee'},
  status: {  type: [{
-     type: String, enum: ['permanent', 'contract', 'temporal']  }], default: ['temporal'] },
+     type: String, enum: ['permanent', 'contract', 'temporal']  }], default: ['six'] },
  CreatedAt: { type: Date,    default: Date.now  }
 });
 
