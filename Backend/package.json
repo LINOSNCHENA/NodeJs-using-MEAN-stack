@@ -1,0 +1,18 @@
+{
+  "name": "mongovmssql",
+  "version": "1.0.0",
+  "description": "Comparision per databases",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Linos Marvin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": ">=5.7.5"
+  }
+}
